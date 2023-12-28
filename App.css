@@ -1,0 +1,123 @@
+body{
+  background-color: #FEE3EC;
+  color: #F875AA;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+.todo-wrapper{
+  background-color: #FFF6F6;
+  padding: 2%;
+  color: #F875AA;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px rgb(167, 27, 73);
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(153, 69, 83);
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.todo-input-item input:focus{
+  outline: none;
+  border: 2px solid rgb(230, 37, 101);
+}
+.PrimaryBtn{
+  background-color: #F999B7;
+  color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 60px;
+  cursor: pointer;
+  border: none;
+}
+.PrimaryBtn:hover{
+  background-color: rgb(143, 4, 27);
+}
+.secondBtn{
+  background-color:#F2789F;
+  color: #fff;
+  padding: 10px;
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 0px;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+}
+.active{
+  background-color: #fff;
+  color:rgb(241, 6, 84) ;
+}
+.todo-list{
+  display: flex;
+  flex-direction:column ;
+}
+.btn-area{
+  margin-bottom: 15px;
+}
+.todolist-item{
+  background-color: #F999B7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.todolist-item h3{
+  margin: 0;
+  font-size: 25px;
+  color: #bc064f;
+  font-weight: bold;
+}
+.todolist-item p{
+  font-size: 14px;
+  width: fit-content;
+  color: #091285;
+  margin-top: 8px;
+}
+.icon-delete{
+  font-size: 35px;
+  cursor: pointer;
+  color:gray;
+}
+.icon-delete:hover{
+  color: red;
+}
+.check-icon{
+  font-size: 35px;
+  cursor: pointer;
+  color: #2ce906;
+}
+.check-icon:hover{
+  color: green;
+}
